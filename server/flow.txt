@@ -1,0 +1,6 @@
+get_pdf_text function used to extract the data from pdfs
+get_text_chunks function convert that extract data into chunks (chunks are small piece of that large data) of 100000 character with overlaping of 1000 character
+overlaping means common character that are present is corresponding chunks
+
+get_vector_Store fucntion embedding those chunks means convert them into numeric vector which allow to capture sementic meaning and relationship in them
+after that it store in vector 
